@@ -25,7 +25,7 @@ public class IfElse {
         float total =0, average;
         try (Scanner scanner = new Scanner(System.in)) {
             for(i=0; i<4; i++) {
-                System.out.print("Enter grade numeber "+(i+1)+":");
+                System.out.print("Enter grade number "+(i+1)+":");
                 grades[i] = scanner.nextInt();
                 total = total + grades[i];
             }
